@@ -1,4 +1,4 @@
-package com.echo.mm.simpletodo;
+package com.echo.mm.SimpleTodo;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -64,7 +64,7 @@ public class MainActivity extends ActionBarActivity {
         etNewItem.setText("");
     }
 
-    // Attaches a long click listener to the listview
+    // Attaches a long click listener to the ListView
     private void setupListViewListener() {
         lvItems.setOnItemLongClickListener(
                 new AdapterView.OnItemLongClickListener() {

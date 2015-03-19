@@ -1,4 +1,4 @@
-package com.echo.mm.simpletodo;
+package com.echo.mm.SimpleTodo;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
